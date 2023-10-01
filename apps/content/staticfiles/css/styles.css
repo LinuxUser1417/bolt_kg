@@ -1,0 +1,114 @@
+/* Общие стили для страницы */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('/static/images/phon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Изменено на Roboto */
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 20px;
+}
+
+/* Стили для контейнера представления о компании */
+.company-info {
+    background-color: transparent; /* Прозрачный фон */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Добавлено выравнивание текста по центру */
+}
+
+/* Стили для описания компании */
+.company-description {
+    float: none; /* Изменено на "none" */
+    width: 100%; /* Изменено на 100% */
+    padding: 20px;
+    background-color: transparent; /* Изменено на transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.001);
+}
+
+.company-description p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Стили для изображения компании */
+.company-image {
+    float: none; /* Изменено на "none" */
+    width: 100%; /* Изменено на 100% */
+    padding: 10px;
+}
+
+.company-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.001);
+}
+
+/* Стили для контактной информации */
+.contact-info {
+    text-align: center;
+    background-color: transparent; /* Изменено на transparent */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: white; /* Изменено на белый цвет текста */
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+/* Стили для кнопки "Свяжитесь с нами" */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #004488;
+}
+
+/* Стили для заголовка */
+header {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent; /* Изменено на transparent */
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.01);
+    font-family: 'Roboto', sans-serif; /* Добавлен Roboto */
+}

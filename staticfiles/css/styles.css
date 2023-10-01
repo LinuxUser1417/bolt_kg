@@ -1,0 +1,8 @@
+body {
+    background-image: url('{% static "images/болт.png" %}'); /* Укажите путь к изображению фона */
+    background-size: cover; /* Растягиваем изображение на всю высоту и ширину экрана */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    background-attachment: fixed; /* Зафиксируем фон, чтобы он не прокручивался */
+    /* Другие стили для текста и элементов страницы */
+    color: white; /* Цвет текста */
+}
